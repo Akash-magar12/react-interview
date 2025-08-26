@@ -1,9 +1,9 @@
-import AgeCalculator from "./components/AgeCalculator";
+import FaqAccordion from "./components/Faq";
 
 const App = () => {
   return (
     <div>
-      <AgeCalculator />
+      <FaqAccordion />
     </div>
   );
 };
