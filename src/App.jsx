@@ -1,9 +1,9 @@
-import ChipsInput from "./components/ChipsInput";
+import AgeCalculator from "./components/AgeCalculator";
 
 const App = () => {
   return (
     <div>
-      <ChipsInput />
+      <AgeCalculator />
     </div>
   );
 };
