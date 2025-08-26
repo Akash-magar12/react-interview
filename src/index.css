@@ -1,1 +1,62 @@
 /* @import "tailwindcss"; */
+.chips-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.chips-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.chips-input {
+  margin-top: 12px;
+  padding: 8px 12px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.chips-input:focus {
+  border-color: #3b82f6; /* blue */
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.4);
+}
+
+.chips-list {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.chip-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chip {
+  background-color: #9ca3af; /* gray-400 */
+  color: white;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+
+.chip-remove {
+  color: #ef4444; /* red-500 */
+  font-weight: bold;
+  margin-left: 6px;
+  transition: color 0.2s ease;
+}
+
+.chip-remove:hover {
+  color: #b91c1c; /* red-700 */
+}
